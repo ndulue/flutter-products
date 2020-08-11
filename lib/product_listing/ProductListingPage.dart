@@ -21,8 +21,11 @@ class ProductListingPage extends StatelessWidget {
         ),
         actions: <Widget>[
           Padding(
-              padding: const EdgeInsets.all(16),
-              child: Image.asset("assets/logo2"),
+            padding: const EdgeInsets.only(right: 16),
+            child: Icon(
+              Icons.apps,
+              size: 20,
+            ),
           )
         ],
       ),

@@ -25,7 +25,7 @@ class RightImageProduct extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                    product.description,
+                    product.name,
                     style: TextStyle(
                       fontSize: 17,
                       fontWeight: FontWeight.w800
@@ -44,8 +44,12 @@ class RightImageProduct extends StatelessWidget {
                     top: -50,
                     bottom: -50,
                     child: Transform.rotate(
-                        angle: 0.2,
-                        child: Image.asset(product.imagePath)
+                        angle: -0.1,
+                        child: Image.asset(
+                            product.imagePath,
+                          height: 80,
+                          width: 180,
+                        )
                     ),
                   )
                 ],

@@ -28,7 +28,7 @@ class LeftImageProduct extends StatelessWidget {
         Navigator.push(context, MaterialPageRoute(
           builder: (context) => ProductDetailsPage(product: product),
         ));
-
+=6===k
          */
       },
       child: Container(
@@ -62,10 +62,10 @@ class LeftImageProduct extends StatelessWidget {
                         product.description,
                         style: TextStyle(
                             fontSize: 8,
-                            color: Color(0xFF909090)
+                            color: Colors.black54
                         ),
                       ),
-                      SizedBox(height: 5),
+                      SizedBox(height: 1),
                       BlueButton(product: product)
                     ],
                   ),

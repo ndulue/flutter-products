@@ -18,10 +18,6 @@ class ProductDetailTabBar extends StatelessWidget {
           Spacer(),
           Icon(Icons.search, color: Colors.white,),
           SizedBox(width: 20),
-          Image.asset(
-            "assets/menu.png",
-            color: Colors.white,
-          )
         ],
       ),
     );

@@ -6,7 +6,6 @@ class VerticalProductItem extends StatelessWidget {
   final Product product;
   final screenHeight;
 
-
   VerticalProductItem({
     Key key,
     this.product,
@@ -16,6 +15,7 @@ class VerticalProductItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: EdgeInsets.only(top: 10),
       color: product.backgroundColor,
       child: Column(
         children: <Widget>[

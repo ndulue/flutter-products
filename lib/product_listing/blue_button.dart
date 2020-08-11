@@ -19,7 +19,7 @@ class BlueButton extends StatelessWidget {
           fontSize: 18
         ),
       ),
-      color: Color(0xFF0000FF),
+      color: Colors.green[400],
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.all(
           Radius.circular(20),

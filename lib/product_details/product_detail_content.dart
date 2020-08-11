@@ -60,7 +60,7 @@ class ProductContent extends StatelessWidget {
                ),
                Hero(
                  tag: product.name,
-                 child: Image.asset("assets/s_logo.png", height: 20,))
+                 child: Image.asset("assets/logo.png", height: 20,))
              ],
            ),
            SizedBox(
@@ -82,9 +82,9 @@ class ProductContent extends StatelessWidget {
                mainAxisSize: MainAxisSize.min,
                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                children: <Widget>[
-                 IconTitle(imagePath: "assets/create1.png", title : "Created"),
-                 IconTitle(imagePath: "assets/create2.png", title : "Connect"),
-                 IconTitle(imagePath: "assets/create3.png", title : "Disconnect"),
+                 IconTitle(imagePath: "assets/icon3.png", title : "Created"),
+                 IconTitle(imagePath: "assets/icon1.png", title : "Connect"),
+                 IconTitle(imagePath: "assets/icon2.png", title : "Disconnect"),
                ],
              ),
            ),

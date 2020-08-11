@@ -30,9 +30,9 @@ class ProductDetailsBackground extends StatelessWidget {
         Positioned(
             left: 20,
             right: 20,
-            top: screenHeight * 0.2,
-            child: Image.asset("assets/logo.png",
-              color: Color(0xFFECECEC).withOpacity(0.5),
+            top: screenHeight * 0.1,
+            child: Image.asset("assets/bg.png",
+              color: Colors.white30.withOpacity(0.5),
             ),
         )
       ],
